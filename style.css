@@ -1,0 +1,111 @@
+* {
+padding: 0; 
+margin: 0;
+}
+body {
+padding-top: 15px;
+padding-bottom: 30px;
+background: #aa8b71;
+font-family: 'Arial', sans-serif;
+background: #aa8b71;
+overflow-y: scroll;}
+td {
+font-size: 11px;
+}
+#page {
+width: 800px;
+background: #c2282a;
+color: white;
+}
+#header {
+height: 190px;
+background: #ede6d4 url(/images/flower.jpg) right top no-repeat;
+border-bottom: 1px dotted black;
+padding-left: 472px;
+color: #aea489;
+color: black;
+}
+#header div {
+padding-top: 27px;
+}
+#border {
+border: 10px solid white;
+}
+#crumbs, #content, #footer {
+padding: 4px;
+padding-left: 220px;
+padding-right: 120px;
+border-top: 1px solid #d75759;
+border-bottom: 1px solid #901d1f;
+margin-right: 5px;
+margin-left: 5px;
+}
+#content {
+font-size: 12px;
+padding-bottom: 30px;
+min-height: 300px;
+}
+#content img {
+position: relative;
+left: 10px;
+border: 2px solid white;
+margin-left: 10px;
+margin-bottom: 10px;
+float: right;
+}
+#content ul {margin-left: 18px;}
+#footer {color: #fc9b71; border-bottom: 0; font-style: italic; height: 16px; line-height: 1.3em;}
+a, #crumbs {color: #fc9b71; border-top: 0;}
+#content a {color: white;}
+#menuholder {
+background: #c2282a;
+position: absolute; 
+border-top: 1px solid #d75759;
+margin-left: 5px;
+}
+#menu {
+margin-right: 5px;
+background: #c2282a; 
+font-size: 12px;
+}
+#menu ul {
+border-bottom: 1px solid #d75759;
+border-top: 1px solid #901d1f;
+border-top: 0;
+position: relative;
+bottom: 1px;
+}
+#menu ul ul li a {
+padding-left: 10px;
+}
+#menu li {
+width: 180px;
+padding-left: 5px;
+display: block;
+list-style: none;
+border-top: 1px solid #d75759;
+border-bottom: 1px solid #901d1f;
+}
+#menu a {color: white; text-decoration: none; padding-left: 0px;}
+#menu a.selected {color: #fc9b71; text-decoration: none; padding-left: 0px;}
+#menu li.sub a, #content li.sub a {padding-left: 20px;}
+h1, h2, h3, p{margin-bottom: 15px;}
+h1 {font-size: 25px; padding-top: 8px;}
+h2 {font-size: 20px; padding-top: 8px;}
+h3 {font-size: 14px; padding-top: 8px;}
+h1 {margin-left: 0; padding-left: 0;
+}
+/*#picture {
+display: none;
+position: absolute;
+height: 189px;
+width: 273px;
+top: 0;
+margin-left: 223px;
+background: url(foto.jpg);
+}*/
+
+em {
+color: #fc9b71;
+font-style: normal;
+}
