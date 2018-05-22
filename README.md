@@ -1,0 +1,1 @@
+# walai_static
